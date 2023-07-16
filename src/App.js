@@ -12,6 +12,7 @@ import FourOFour from "./Pages/FourOFour";
 // COMPONENTS
 import NavBar from "./Components/NavBar";
 
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 function App() {
@@ -33,7 +34,6 @@ function App() {
     </div>
   );
 }
-
 
 
 export default App;

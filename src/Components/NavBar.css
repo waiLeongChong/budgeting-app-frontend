@@ -1,0 +1,5 @@
+.custom-nav {
+  width: 87%;
+  display: flex;
+  justify-content: flex-end;
+}

@@ -1,3 +1,20 @@
+body {
+  background-color: #D3D3D3;
+}
+
+.greenish {
+  color: #00A878;
+}
+
+.yellowish {
+  color: #EFC94C;
+}
+
+.reddish {
+  color: #D63B59;
+}
+
+
 .App {
   text-align: center;
 }
@@ -36,3 +53,4 @@
     transform: rotate(360deg);
   }
 }
+

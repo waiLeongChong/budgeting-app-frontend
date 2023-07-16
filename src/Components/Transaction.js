@@ -7,7 +7,7 @@ function Transaction({ transaction, index }) {
     <tr>
       <td>{dateFormat}</td>
       <td>
-        <Link to={`/transactions/${index}`}>{transaction.name}</Link>
+        <Link to={`/transactions/${index}`} className="text-decoration-none">{transaction.name}</Link>
       </td>
       <td>{transaction.category}</td>
       <td>{transaction.from}</td>
